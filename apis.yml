@@ -1,8 +1,27 @@
 aid: drip-capital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drip-capital.png
 name: Drip Capital
-description: 'Drip Capital is a company surfaced as a portfolio company of accel, initialized-capital,
-  wing-venture-capital, y-combinator and added to the API Evangelist network as a stub for enrichment.
-  Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Drip Capital is a digital trade finance and working capital company founded
+  in 2016, headquartered in Palo Alto, California, with operations in Mumbai, India
+  and Mexico City, Mexico. It provides collateral-free post-shipment finance to small
+  and medium-sized exporters and importers through data-driven underwriting, offering
+  invoice factoring, export finance, an importer credit program, supply chain and vendor
+  financing, receivables financing, and revolving lines of credit. The company has
+  financed over $9 billion in trade transactions for 11,000+ businesses worldwide.
+  Drip Capital does not currently publish a public developer API; this profile captures
+  its identity and public web properties. It was surfaced as a portfolio company of
+  Accel, Initialized Capital, Wing Venture Capital, and Y Combinator.'
 url: https://raw.githubusercontent.com/api-evangelist/drip-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,20 @@ x-backed-by:
 - wing-venture-capital
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Consumer
+- Financial Services
+- Fintech
+- Trade Finance
+- Working Capital
+- Invoice Factoring
+- Supply Chain Finance
+- Export Finance
+- B2B
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,4 +53,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.dripcapital.com
+  url: https://www.dripcapital.com
+- type: About
+  url: https://www.dripcapital.com/en-us/about/
+- type: Blog
+  url: https://www.dripcapital.com/resources/blog/
+- type: SignUp
+  url: https://www.dripcapital.com/exporters/apply/
+- type: Login
+  url: https://portal.dripcapital.com/
+- type: TermsOfService
+  url: https://www.dripcapital.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.dripcapital.com/en-us/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/dripcapital
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
